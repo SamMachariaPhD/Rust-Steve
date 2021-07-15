@@ -9,7 +9,7 @@ fn main() {
     println!("The value is {}", x);
     x = 3; // No error coz x is mutable
     println!("The value has changed to {}", x);
-    /*
+    /* shadowing or overwritting
     let x = 7;
     println!("The value is {}", x);
     let x = 3; // I realized there's no error if you redeclare.
